@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RafaelBiatoAzevedo/movie-cards-library/static/css/main.20c682d6.chunk.css",
+    "main.js": "/RafaelBiatoAzevedo/movie-cards-library/static/js/main.e0ebd601.chunk.js",
+    "main.js.map": "/RafaelBiatoAzevedo/movie-cards-library/static/js/main.e0ebd601.chunk.js.map",
+    "runtime-main.js": "/RafaelBiatoAzevedo/movie-cards-library/static/js/runtime-main.79ae742c.js",
+    "runtime-main.js.map": "/RafaelBiatoAzevedo/movie-cards-library/static/js/runtime-main.79ae742c.js.map",
+    "static/js/2.dccc6918.chunk.js": "/RafaelBiatoAzevedo/movie-cards-library/static/js/2.dccc6918.chunk.js",
+    "static/js/2.dccc6918.chunk.js.map": "/RafaelBiatoAzevedo/movie-cards-library/static/js/2.dccc6918.chunk.js.map",
+    "index.html": "/RafaelBiatoAzevedo/movie-cards-library/index.html",
+    "precache-manifest.0563b6404a62212fefe2b2c6aacdc082.js": "/RafaelBiatoAzevedo/movie-cards-library/precache-manifest.0563b6404a62212fefe2b2c6aacdc082.js",
+    "service-worker.js": "/RafaelBiatoAzevedo/movie-cards-library/service-worker.js",
+    "static/css/main.20c682d6.chunk.css.map": "/RafaelBiatoAzevedo/movie-cards-library/static/css/main.20c682d6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79ae742c.js",
+    "static/js/2.dccc6918.chunk.js",
+    "static/css/main.20c682d6.chunk.css",
+    "static/js/main.e0ebd601.chunk.js"
+  ]
+}

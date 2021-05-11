@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost:3000/movies/new -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/movieIcon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/movies/movieIcon.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Movie Cards Library</title>
+  <style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+</style><style>* {
+  background-color: rgb(235, 233, 233);
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.container-header {
+  align-items: center;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.title-header {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.container-search {
+  background-color: rgb(235, 233, 233);
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-search {
+  align-self: center;
+  background-color: gray;
+  border: solid 1px ;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 4px 10px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 600px;
+}
+
+.input-search, .select-search {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.input-search {
+  height: 20px;
+  padding-left: 10px;
+}
+
+.label-favorite {
+  align-self: center;
+}
+
+.loading {
+  color: rgb(44, 44, 44);
+  font-size: 40px;
+  padding: 40px;
+}
+
+.container-movies {
+  background-color: rgb(235, 233, 233);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-cardMovie {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 300px;
+  margin: 10px;
+}
+
+.container-info-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.container-title-card {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-card {
+  height: 170px;
+}
+
+.title-card {
+  background-color: white;
+}
+
+.subtitle-card {
+  background-color: white;
+  color: gray;
+}
+
+.storyline-card {
+  background-color: white;
+  height: 120px;
+}
+
+.rating-card {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  padding: 3px 0;
+}
+
+.link-details {
+  background-color: white;
+  color: blue;
+  text-decoration: none;
+  align-self: center;
+}
+
+.container-add-movie {
+  display: flex;
+  justify-content: center;
+}
+
+.container-form-add {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  width: 360px;
+}
+
+.subtitle-add-movie {
+  align-self: center;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.container-inputs {
+  display: flex;
+}
+
+.container-btn-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-add {
+  border: solid 1px;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 2px 10px;
+}
+
+.image-add {
+  width: 340px;
+}
+
+.ratio-add {
+  width: 60px;
+}
+
+.genre-add {
+  height: 22px;
+  margin-right: 60px;
+}
+
+.container-btn {
+  align-self: center;
+}
+
+.btn-form {
+  background-color: #343a40;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 15px;
+  margin: 20px 0;
+  width: 100px;
+}
+
+.label-add-movie {
+  display: block;
+  margin-top: 10px;
+}
+
+.container-btns-details {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-card-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-details {
+  flex-direction: row;
+  height: 370px;
+  width: 80%;
+}
+
+.img-details {
+  height: 370px;
+}
+
+.btn-details {
+  width: 80px;
+}
+</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div data-testid="new-movie"><div class="container-header"><h1 class="title-header">Movie Cards Library</h1></div><div class="container-add-movie"><form data-testid="add-movie-form" class="container-form-add"><h4 class="subtitle-add-movie">Information about movie</h4><div class="container-inputs"><div><label class="label-add-movie" for="input-title" data-testid="title-input-label">Title</label><input class="input-add" type="text" id="input-title" data-testid="title-input" name="title" value=""></div><div><label class="label-add-movie" for="input-subtitle" data-testid="subtitle-input-label">Subtitle</label><input class="input-add" type="text" id="input-subtitle" data-testid="subtitle-input" name="subtitle" value=""></div></div><div><label class="label-add-movie" for="input-image" data-testid="image-input-label">Image</label><input placeholder="Url image" class="input-add image-add" type="text" id="input-image" data-testid="image-input" name="imagePath" value=""></div><div class="container-textArea"><label class="label-add-movie" for="textarea-sinopse" data-testid="storyline-input-label">StoryLine</label><textarea class="input-add" id="textarea-sinopse" data-testid="storyline-input" cols="44" rows="5" name="storyline" maxlength="200"></textarea></div><div><label for="radioIsFavorite"><input class="input-add" id="radioIsFavorite" type="checkbox">IsFavorite</label></div><div class="container-inputs"><div><label class="label-add-movie" for="input-select" data-testid="genre-input-label">Genre</label><select class="input-add genre-add" id="input-select" data-testid="genre-input" name="genre"><option value="action" data-testid="genre-option">Action</option><option value="comedy" data-testid="genre-option">Comedy</option><option value="thriller" data-testid="genre-option">Thriller</option></select></div><div><label class="label-add-movie" for="input-rating" data-testid="rating-input-label">Rating</label><input class="input-add ratio-add" type="number" id="input-rating" data-testid="rating-input" name="rating" min="0" max="5" step="0.1" value="0"></div></div><div class="container-btn-form"><div class="container-btn"><button class="btn-form" type="button" data-testid="send-button">Add Movie</button></div><div class="container-btn"><a href="http://localhost:3000/"><button class="btn-form" type="button" data-testid="cancel-button">Cancel</button></a></div></div></form></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./Movie Cards Library_files/bundle.js"></script><script src="./Movie Cards Library_files/0.chunk.js"></script><script src="./Movie Cards Library_files/main.chunk.js"></script><script src="./Movie Cards Library_files/main.a9e9e4d62af98157b12f.hot-update.js"></script>
+
+</body></html>
