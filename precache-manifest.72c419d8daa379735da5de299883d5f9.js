@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03168d0a5d3751472489a3b8c5517af6",
+    "revision": "19a88c3dd56c5f90e916ee170f67a0bc",
     "url": "/movie-cards-library/index.html"
   },
   {
-    "revision": "bc5f9ef81dd43122436e",
+    "revision": "98da083e8a81a5747b37",
     "url": "/movie-cards-library/static/css/main.7f574d43.chunk.css"
   },
   {
-    "revision": "dfb7124d9df561b1d2a5",
-    "url": "/movie-cards-library/static/js/2.9d7b4625.chunk.js"
+    "revision": "cdc057429abd4048aefd",
+    "url": "/movie-cards-library/static/js/2.d6ac1c74.chunk.js"
   },
   {
-    "revision": "bc5f9ef81dd43122436e",
-    "url": "/movie-cards-library/static/js/main.019a28fa.chunk.js"
+    "revision": "98da083e8a81a5747b37",
+    "url": "/movie-cards-library/static/js/main.18edf522.chunk.js"
   },
   {
     "revision": "ecce4fbd7856636e4651",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7d6b4f9cc69800cbd7c5a4fd2f0aeec5",
     "url": "/movie-cards-library/static/media/Ghost_In_The_Shell_2_0.7d6b4f9c.jpg"
+  },
+  {
+    "revision": "6dfa5fd75ea9aa4f720a438840c1de69",
+    "url": "/movie-cards-library/static/media/Jumanji.6dfa5fd7.jpg"
   },
   {
     "revision": "917daac0bfa6f2ab2ffd7f26bc5ac239",

@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/movie-cards-library/static/css/main.7f574d43.chunk.css",
-    "main.js": "/movie-cards-library/static/js/main.019a28fa.chunk.js",
-    "main.js.map": "/movie-cards-library/static/js/main.019a28fa.chunk.js.map",
+    "main.js": "/movie-cards-library/static/js/main.18edf522.chunk.js",
+    "main.js.map": "/movie-cards-library/static/js/main.18edf522.chunk.js.map",
     "runtime-main.js": "/movie-cards-library/static/js/runtime-main.9adbc1c5.js",
     "runtime-main.js.map": "/movie-cards-library/static/js/runtime-main.9adbc1c5.js.map",
-    "static/js/2.9d7b4625.chunk.js": "/movie-cards-library/static/js/2.9d7b4625.chunk.js",
-    "static/js/2.9d7b4625.chunk.js.map": "/movie-cards-library/static/js/2.9d7b4625.chunk.js.map",
+    "static/js/2.d6ac1c74.chunk.js": "/movie-cards-library/static/js/2.d6ac1c74.chunk.js",
+    "static/js/2.d6ac1c74.chunk.js.map": "/movie-cards-library/static/js/2.d6ac1c74.chunk.js.map",
     "index.html": "/movie-cards-library/index.html",
-    "precache-manifest.9faf065b946222b843229752ab1c6255.js": "/movie-cards-library/precache-manifest.9faf065b946222b843229752ab1c6255.js",
+    "precache-manifest.72c419d8daa379735da5de299883d5f9.js": "/movie-cards-library/precache-manifest.72c419d8daa379735da5de299883d5f9.js",
     "service-worker.js": "/movie-cards-library/service-worker.js",
     "static/css/main.7f574d43.chunk.css.map": "/movie-cards-library/static/css/main.7f574d43.chunk.css.map",
     "static/media/Appleseed_Alpha.jpg": "/movie-cards-library/static/media/Appleseed_Alpha.498ae78a.jpg",
     "static/media/Final_Fantasy_Spirits_Within.jpg": "/movie-cards-library/static/media/Final_Fantasy_Spirits_Within.0d8b80ec.jpg",
     "static/media/Ghost_In_The_Shell_2_0.jpg": "/movie-cards-library/static/media/Ghost_In_The_Shell_2_0.7d6b4f9c.jpg",
+    "static/media/Jumanji.jpg": "/movie-cards-library/static/media/Jumanji.6dfa5fd7.jpg",
     "static/media/Kingsglaive_Final_Fantasy_XV.jpg": "/movie-cards-library/static/media/Kingsglaive_Final_Fantasy_XV.917daac0.jpg",
     "static/media/Resident_Evil_Vendetta.jpg": "/movie-cards-library/static/media/Resident_Evil_Vendetta.77c10ef3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9adbc1c5.js",
-    "static/js/2.9d7b4625.chunk.js",
+    "static/js/2.d6ac1c74.chunk.js",
     "static/css/main.7f574d43.chunk.css",
-    "static/js/main.019a28fa.chunk.js"
+    "static/js/main.18edf522.chunk.js"
   ]
 }
